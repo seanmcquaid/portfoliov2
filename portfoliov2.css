@@ -1,0 +1,88 @@
+* {
+  text-align: center;
+}
+
+html body {
+  background-color: #82efee;
+}
+
+.navbar {
+  background-color: #128a08;
+}
+
+nav a {
+  color: #cfbca6;
+}
+
+.section-text {
+  color: #000001;
+}
+
+#title {
+  margin-top: 40vh;
+  margin-bottom: 40vh;
+}
+
+#about-me {
+ margin-top: 20vh;
+}
+
+#about-me img {
+float: left;
+width: auto;
+margin-left: 10vw;
+margin-bottom: 10vh;
+padding-right: 30vh; 
+}
+
+#about-me p {
+margin: auto;
+text-align: left;
+width: auto;
+margin-left: 30vw;
+margin-bottom: 10vh;
+margin-right: 30vw;
+}
+
+.container {
+width: auto;
+margin: 20vw;
+}
+
+.container h2 {
+  padding-bottom: 8vh;
+}
+
+.container img { 
+padding: 4vh;
+padding-top: 8vh;
+padding-left: 8vh;
+}
+
+.container img:hover {
+animation: shake 0.5s; 
+animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#contact-me {
+  padding: 20vh;
+}
+
+#contact-me a {
+ padding: 10vh;
+ color: #009ab0;
+}
