@@ -2,25 +2,38 @@
   text-align: center;
 }
 
+html {
+  font-size: 100%;
+  
+}
+
+
 html body {
   background-color: #82efee;
+  
 }
 
-.navbar {
-  background-color: #128a08;
+
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
 }
 
-nav a {
-  color: #cfbca6;
+
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
 }
+
 
 .section-text {
   color: #000001;
 }
 
 #title {
-  margin-top: 40vh;
-  margin-bottom: 40vh;
+  padding-top: 10vh;
+  margin: auto;
+  
 }
 
 #about-me {
@@ -28,19 +41,18 @@ nav a {
 }
 
 #about-me img {
-float: left;
-width: auto;
-margin-left: 10vw;
-margin-bottom: 10vh;
-padding-right: 30vh; 
+display: block;
+max-width: 100%;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 10vh;
 }
 
 #about-me p {
 margin: auto;
-text-align: left;
 width: auto;
 margin-left: 30vw;
-margin-bottom: 10vh;
 margin-right: 30vw;
 }
 
@@ -79,7 +91,7 @@ animation-iteration-count: infinite;
 }
 
 #contact-me {
-  padding: 20vh;
+  padding: 10vh;
 }
 
 #contact-me a {
