@@ -18,7 +18,11 @@ body {
 }
 
 nav a {
-  color: #cfbca6;
+  color: white !important;
+}
+
+.dropdown-item {
+  color: black !important;
 }
 
 .about-container {
